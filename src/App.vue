@@ -52,7 +52,8 @@ export default {
       hls.loadSource(this.src);
     },
     play(index){
-      this.src = this.list[index]['url'];
+      // this.src = this.list[index]['url'];
+      location.href= this.list[index]['url'];
     }
   }
 }
